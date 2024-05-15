@@ -37,12 +37,12 @@ const Game = () => {
             let newCap = 0;
 
             if (parseFloat(flip) < percentage){
-                setMessage('The Last Flip Was Heads! You have Gained $' + wagerM + "!");
+                setMessage('The Last Flip Was Heads! You Have Gained $' + wagerM + "!");
                 newCap = parseFloat(capital) + parseFloat(wagerM)
                 setCapital(newCap.toFixed(2));
             }
             else{
-                setMessage('The Last Flip Was Tails! You have Lost $' + wagerM + "!");
+                setMessage('The Last Flip Was Tails! You Have Lost $' + wagerM + "!");
                 newCap = parseFloat(capital - wagerM)
                 setCapital(newCap.toFixed(2));
             }
