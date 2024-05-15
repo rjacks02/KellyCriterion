@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/KellyCriterion/static/css/main.903bd1ed.css",
+    "main.css": "/KellyCriterion/static/css/main.281a9a5f.css",
     "main.js": "/KellyCriterion/static/js/main.f97d5eaa.js",
     "index.html": "/KellyCriterion/index.html",
-    "main.903bd1ed.css.map": "/KellyCriterion/static/css/main.903bd1ed.css.map",
+    "main.281a9a5f.css.map": "/KellyCriterion/static/css/main.281a9a5f.css.map",
     "main.f97d5eaa.js.map": "/KellyCriterion/static/js/main.f97d5eaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.903bd1ed.css",
+    "static/css/main.281a9a5f.css",
     "static/js/main.f97d5eaa.js"
   ]
 }
