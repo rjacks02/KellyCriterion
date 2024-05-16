@@ -17,7 +17,7 @@ const End = () => {
         <h1 class = 'Header'>End of Game</h1>
         <p class = 'Label'>Your Final Capital After {count} Flips:</p>
         <div class = 'Container'>
-            < p class = 'Capital'>${capital}</p>
+            < p class = 'Capital'>${capital.toFixed(2)}</p>
         </div>
         <div class = 'Container'>
             <button class = 'Button' onClick = {playAgain}><span>Play Again?</span></button>

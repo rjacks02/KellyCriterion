@@ -76,7 +76,7 @@ const Game = () => {
             <label >Wager:    </label>
             <input onChange={handleWagerChange} onKeyDown = {blockInvalidChar} type="number" defaultValue="0" step = "1" min = "0" max = "100"/>
             <label >%</label>
-            <p>You Will Be Wagering ${wagerM}</p>
+            <p>You Will Be Wagering ${wagerM.toFixed(2)}</p>
         </div>
         <div class='Container'>
             <button class='Button' onClick={runFlip}><span>Flip The Coin!</span></button>
